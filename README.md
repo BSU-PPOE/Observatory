@@ -2,17 +2,9 @@
 
 **Hello Observatory World! i made a search bar!**
 
-<style>
-    .search-form {
-        position: absolute;
-        top: 100px;
-        right: 10px;
-    }
-</style>
+Search Our Database:
 
-<form class="search-form" action="{{ url_for('search') }}" method="get">
-    <!-- Search input -->
-    <input type="text" name="query" placeholder="Enter your search query">
-    <!-- Search button -->
+<form method="POST" action="/search">
+    <input type="text" name="search_query" placeholder="Search">
     <button type="submit">Search</button>
 </form>
