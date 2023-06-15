@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template('README.md')
 
-@app.route('/search', methods=['POST'])
+@app.route('/search', methods=['GET','POST'])
 def search():
     search_query = request.form.get('search_query')
 
