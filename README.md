@@ -5,7 +5,7 @@
 <style>
     .search-form {
         position: absolute;
-        top: 80px;
+        top: 100px;
         right: 10px;
     }
 </style>
