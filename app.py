@@ -1,16 +1,19 @@
 from flask import Flask, render_template, request
 
-
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
-@app.route('/search', methods=['GET'])
-def search():
-    query = request.args.get('query')
-    # Perform the search operation with the query and generate the search results
-    # You can define the logic for the search operation here
+    return render_template('README.md')
 
-    # Pass the search results to a template for rendering
-    return render_template('search_results.md', query=query, results=results)
+@app.route('/search', methods=['POST'])
+def search():
+    search_query = request.form.get('search_query')
+
+    # Perform search logic and generate search results
+
+    # Pass the search results to the template
+    return render_template('search_results.md', search_results=search_results)
+
+if __name__ == '__main__':
+    app.run()
