@@ -10,7 +10,9 @@
     }
 </style>
 
-<form class="search-form" action="/search" method="get">
+<form class="search-form" action="{{ url_for('search') }}" method="get">
+    <!-- Search input -->
     <input type="text" name="query" placeholder="Enter your search query">
+    <!-- Search button -->
     <button type="submit">Search</button>
 </form>
