@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, url_for
 
 app = Flask(__name__)
 
@@ -8,12 +8,10 @@ def index():
 
 @app.route('/search', methods=['GET','POST'])
 def search():
-    search_query = request.form.get('search_query')
-
-    # Perform search logic and generate search results
-
-    # Pass the search results to the template
-    return render_template('search_results.md', search_results=search_results)
-
+    if request.method == 'POST':
+        search_query = request.form.get('search_query')
+        search_results = perform_search(search_query)
+        return render_template('search_results.md', query=search_query, results=search_results)
+    return 'Method not allowed', 405
 if __name__ == '__main__':
     app.run()

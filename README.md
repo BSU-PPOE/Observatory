@@ -4,7 +4,7 @@
 
 Search Our Database:
 
-<form method="POST" action="/search">
+<form method="POST" action="{{ url_for('search') }}">
     <input type="text" name="search_query" placeholder="Search">
     <button type="submit">Search</button>
 </form>
