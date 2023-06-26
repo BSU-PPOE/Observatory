@@ -10,6 +10,8 @@ Search Our Database:
 </form>  
 
 
+
+
 **Our data repositories are under construction.**
 
 Our data consist of images in standard astronomy FITS format (both raw and calibrated, as well as calibration files for use with raw data).  Additional photometric information  (about how bright the stars in the images are and how they change over time) will become available for each set as we generate it on our end.  
