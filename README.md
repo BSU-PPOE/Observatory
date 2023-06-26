@@ -18,5 +18,5 @@ Our data consist of images in standard astronomy FITS format (both raw and calib
 Below is a list of targets we have imaged with links to dates on which we imaged them.  (See this link to understand what our dates mean).
 
 SN 2022yid (Type Ia Supernova)  
-    10/27/2022  
-    10/29/2022  
+   10/27/2022  
+   10/29/2022  
