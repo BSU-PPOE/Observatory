@@ -19,4 +19,4 @@ Below is a list of targets we have imaged with links to dates on which we imaged
 
 SN 2022yid (Type Ia Supernova)  
 &nbsp;&nbsp;&nbsp;[10/27/2022](https://github.com/BSU-PPOE/10272022)  
-&nbsp;&nbsp;&nbsp;10/29/2022  
+&nbsp;&nbsp;&nbsp;[10/29/2022](https://github.com/BSU-PPOE/10292022)  
