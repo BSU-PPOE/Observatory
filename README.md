@@ -11,7 +11,7 @@ Below, you'll find a list of targets we have imaged with links to dates on which
 
 ### Type Ia Supernovae  
 
-SN 2022yid  
+#### SN 2022yid  
 &nbsp;&nbsp;&nbsp;[10/27/2022](https://github.com/BSU-PPOE/10272022)  
 &nbsp;&nbsp;&nbsp;[10/29/2022](https://github.com/BSU-PPOE/10292022)  
 &nbsp;&nbsp;&nbsp;[11/02/2022](https://github.com/BSU-PPOE/11022022)  
@@ -21,5 +21,5 @@ SN 2022yid
 
 ### Astrophotography  
 
-Triangulum Galaxy  
+#### Triangulum Galaxy  
 &nbsp;&nbsp;&nbsp;[10/21/2022](https://github.com/BSU-PPOE/10212022)  
